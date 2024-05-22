@@ -1,5 +1,5 @@
 from airflow.plugins_manager import AirflowPlugin
-from airflow.settings import RBAC
+from airflow.api.auth.backend import RBAC
 from flask import Blueprint
 
 from dag_schedule_graph.log import logger
